@@ -1,0 +1,124 @@
+/* Inter Font from google */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --primary-color: rgb(230, 83, 60);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+
+.hide {
+    display: none;
+}
+
+/* Header Styles */
+.header {
+    background: linear-gradient(90.00deg, rgb(17, 17, 17) 100%,rgba(0, 0, 0, 0) 100%);
+}
+
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1090px;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+
+.nav-logo a {
+    font-size: 40px;
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.nav-links ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    border: 0.5px solid gray;
+    border-radius: 20px;
+    padding: 2px 2px;
+}
+
+.nav-links ul li {
+    padding: 5px 15px;
+    color: white;
+    transition: all 0.5s;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.nav-links ul li:first-child {
+    background-color: var(--primary-color);
+    font-weight: 600;
+}
+
+.nav-links ul li:hover {
+    background-color: white;
+}
+
+.nav-links ul li:hover a {
+    color: var(--primary-color);
+} 
+
+.nav-links ul li a {
+    color: white;
+}
+
+.nav-logo a,
+.nav-links ul li a {
+    text-decoration: none;
+}
+
+.menu-bars i {
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+#menu-bars {
+    animation-name: moveTopToBottom;
+    animation-duration: 3s;
+    /* Animation will be repeated infinitely */
+    animation-iteration-count: infinite;
+}
+
+@keyframes moveTopToBottom {
+
+    0% {
+        scale: 0.75;
+    }
+
+    25% {
+        scale: 1;
+    }
+
+    50% {
+        scale: 0.75;
+    }
+
+    75% {
+        scale: 1;
+    }
+
+    100% {
+        scale: 0.75;
+    }
+}
+
