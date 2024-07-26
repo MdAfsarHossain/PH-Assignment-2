@@ -359,3 +359,57 @@ body {
     font-size: 14px;
 }
 
+
+
+/* Run Extra Styles */
+.run-extra {
+    background-color: black;
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.run-extra-container {
+    width: 1090px;
+    margin: 0px auto;
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(34, 34, 34);
+    border-radius: 10px;
+}
+
+.run-extra-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.run-extra-title {
+    font-size: 36px;
+    color: white;
+}
+
+.run-extra-description {
+    color: gray;
+    font-size: 14px;
+}
+
+.run-extra-right-side {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.run-extra-right-side img {
+    width: 50%;
+    border-radius: 10px;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+}
+
