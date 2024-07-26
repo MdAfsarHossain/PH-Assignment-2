@@ -277,4 +277,240 @@
 
 
 
+/* Tablet Device */
+@media screen and (min-width: 576px) and (max-width: 992px){
+
+    /* Header */
+    .header {
+        width: 100%;
+    }
+
+
+    /* Navbar */
+    .navbar {
+        width: 95%;
+        flex-direction: row;
+    }
+
+    .nav-links {
+        display: contents;
+    }
+
+    .menu-bars {
+        opacity: 0;
+    }
+
+    
+    /* Banner */
+    .banner {
+        width: 100%;
+    }
+
+    .banner-container {
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .banner-content,
+    .banner-right-part {
+        width: 80%;
+    }
+
+    .banner-content {
+        margin-top: 15px;
+    }
+
+    .banner-title {
+        font-size: 56px;
+    }
+
+    .banner-description { 
+        font-size: 18px;
+    }
+
+    .banner-right-part {
+        align-items: center;
+    }
+    
+    .banner-right-part img {
+        width: 50%;
+    }
+
+    .free-workout {
+        top: 75px;
+        right: 110px;
+    }
+
+    .video-tutorial {
+        top: 315px;
+        right: 345px;
+    }
+
+    
+    /* Habits */
+    .habits {
+        height: 100%;
+    }
+
+    .habits-container {
+        width: 95%;
+    }
+
+    .habits-title {
+        font-size: 45px;
+    }
+
+    .habits-description {
+        width: 95%;
+        font-size: 16px;
+    }
+
+    .habits-cards {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+
+    .habits-card {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .habits-card img {
+        width: 50%;
+    }
+
+
+    /* Run Extra */
+    .run-extra-container {
+        width: 95%;
+        flex-direction: row;
+        gap: 25px;
+    }
+
+    .run-extra-content button {
+        width: 100%;
+        font-size: 18px;
+        font-weight: 700;
+        margin-top: 10px;
+    }
+
+    .run-extra-right-side {
+        justify-content: center;
+    }
+
+    .run-extra-right-side img {
+        width: 100%;
+    }
+
+
+    /* Trainings */
+    .trainings-container {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+
+    /* BMI Calculator */
+    .bmi-calculator-content {
+        width: 95%;
+    }
+
+    .bmi-calculator-description {
+        width: 70%;
+    }
+
+
+    /* BMI Calculator Chart */
+    .bmi-calculator-chart-container {
+        width: 95%;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 40px;
+        padding: 0px;
+        padding-bottom: 30px;
+    }
+
+    .bmi-calculator-chart-left {
+        width: 50%;
+        margin-left: 20px;
+    }
+
+    .bmi-calculator-chart-right {
+        width: 95%;
+    }
+
+    .bmi-calculator-chart-input input[type="text"],
+    .bmi-calculator-chart-input select {
+        padding: 15px 25px;
+        width: 100%;
+    }
+
+    .bmi-calculator-chart button {
+        display: inline;
+    }
+
+    
+    /* Popular */
+    .popular-container {
+        width: 95%;
+    }
+
+    .popular-title {
+        font-size: 45px;
+    }
+
+    .popular-cards {
+        grid-template-columns: repeat(2, 1fr);
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    
+    /* Team */
+    .team-container {
+        width: 95%;
+    }
+
+    .team-title {
+        font-size: 45px;
+    }
+
+    .team-description {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .team-cards {
+        grid-template-columns: repeat(3, 1fr);
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    
+    /* Footer */
+    .footer-container {
+        width: 95%;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 35px;
+    }
+
+    .footer-left {
+        grid-column: span 2;
+    }
+
+    .footer-description {
+        width: 70%;
+    }
+
+    .footer-middle {
+        margin-left: 0px;
+    }
+
+    .footer hr {
+        width: 90%;
+    }
+}
+
+
 
